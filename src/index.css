@@ -1,0 +1,81 @@
+.list-title {
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, .25);
+    padding: 5%;
+    margin: 5%;
+    list-style: none;
+}
+
+
+/* MODAL CARD */
+
+.modal-dialog {
+    width: 40%;
+    /* margin-left: 15%; */
+    height: 70%;
+}
+
+.modal-content {
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+}
+
+.modal-left {
+    float: left;
+    width: 72%;
+    height: 90%;
+    padding-right: 3%;
+}
+
+.modal-right {
+    height: 90%;
+}
+
+button {
+    width: 27%;
+    margin: 0.2%;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#inputDes {
+    width: 80%;
+    margin-left: 0%;
+}
+
+.button-ShowDetails,
+.button-Delete {
+    float: right;
+}
+
+.button-descript {
+    float: left;
+    height: 10%;
+    width: 100%;
+}
+
+.close {
+    float: right;
+    text-align: right;
+    width: auto;
+}
+
+#checkList {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#activityList {
+    margin-top: 5%;
+}
